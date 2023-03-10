@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,100&family=Rubik+Moonrocks&display=swap');
+
+
+h1 {
+    background-color: tomato;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+a {
+    background-color: crimson;
+}
+
+.text-content {
+    font-size: x-large;
+}
+
+.font-grosso {
+    font-size: xx-large;
+}
+
+.font-normale {
+    font-weight: 400;
+}
+
+#titolo-principale {
+    color: rgb(59, 0, 59);
+}
+
+h4,
+h5 {
+    color: green;
+}
+
+.titolone {
+    
+    width: 50%;
+    height: 40px;
+    /*display: inline;*/
+}
+
+.mamma {
+    background: rgb(131,58,180);
+background: linear-gradient(32deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 54%, rgba(253,215,29,1) 73%);
+    background-color: darkorange;
+    width: 50%;
+    height: 100px;
+}
+
+.figlia {
+    width: 50%;
+    /*della mamma
+    anche la width di figlia non può superare la width della mamma
+    per bypassare uso vh e vw*/
+    min-width: 50px;
+    height: 90%;
+    overflow: scroll;
+}
+
+.primo {
+    background-color: aqua;
+    padding: 20px;
+    /*margine interno, stesse regole del margin: top right bottom left*/
+
+}
+
+.secondo {
+    background-color: chartreuse;
+    margin: 8px 16px 24px 32px;
+    /*in senso orario punto ai margini: top right bottom left*/
+    margin: 24px 40px;
+    /*quando inserisco solo due valori punto a sopra sotto e con il secondo valore dx sx*/
+}
+
+.terzo {
+    height: 200px;
+    width: 200px;
+    /* border-style: solid;
+    border-color: palevioletred;
+    border-width: 50px; */
+    /*border è inesistente finchè non specifico con border-style: 
+    prende di default lo stesso colore del testo*/
+    border: solid palevioletred 50px;
+    /* border-radius: 50px 100px; */
+    /* border-top-left-radius: 100px; */
+    border-radius: 30px 800px 0px 200px;
+    background-image: url(./assets/emojicringe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+body {
+    background-color: rgb(236, 207, 238);
+    font-family: 'Roboto', sans-serif;
+}
+
+.quarto {
+    color: white;
+    background-color: darkblue;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    -webkit-box-shadow: 46px 47px 54px -14px rgba(227,36,227,0.71);
+    -moz-box-shadow: 46px 47px 54px -14px rgba(227,36,227,0.71);
+    box-shadow: 46px 47px 54px -14px rgba(227,36,227,0.71);
+}
+
+.quinto {
+    background-color: violet;
+    display: inline;
+}
